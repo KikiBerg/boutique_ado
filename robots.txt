@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /bag/
+Sitemap: https://boutique-ado-kiki-d1e34cc99b0e.herokuapp.com/sitemap.xml
