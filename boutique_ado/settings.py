@@ -35,6 +35,12 @@ ALLOWED_HOSTS = [
     'boutique-ado-kiki-d1e34cc99b0e.herokuapp.com'
     ]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-kikiberg-boutiqueado-xxq568a072a.ws.codeinstitute-ide.net',
+    'https://boutique-ado-kiki-d1e34cc99b0e.herokuapp.com',
+    'https://.*codeinstitute-ide.net',
+    'https://.*herokuapp.com',
+]
 
 # Application definition
 
